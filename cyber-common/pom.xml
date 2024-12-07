@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cyber-wms</artifactId>
+        <groupId>com.cyber</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>cyber-common-bom</module>
+        <module>cyber-common-core</module>
+        <module>cyber-common-oss</module>
+        <module>cyber-common-sms</module>
+        <module>cyber-common-json</module>
+        <module>cyber-common-excel</module>
+        <module>cyber-common-redis</module>
+        <module>cyber-common-satoken</module>
+        <module>cyber-common-web</module>
+        <module>cyber-common-security</module>
+        <module>cyber-common-mybatis</module>
+        <module>cyber-common-mail</module>
+        <module>cyber-common-log</module>
+        <module>cyber-common-ratelimiter</module>
+        <module>cyber-common-translation</module>
+        <module>cyber-common-sensitive</module>
+        <module>cyber-common-encrypt</module>
+        <module>cyber-common-idempotent</module>
+        <module>cyber-common-doc</module>
+    </modules>
+
+    <artifactId>cyber-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        common 通用模块
+    </description>
+
+</project>

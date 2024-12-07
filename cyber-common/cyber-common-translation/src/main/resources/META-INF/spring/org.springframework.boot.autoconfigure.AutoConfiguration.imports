@@ -1,0 +1,5 @@
+com.cyber.common.translation.config.TranslationConfig
+com.cyber.common.translation.core.impl.DeptNameTranslationImpl
+com.cyber.common.translation.core.impl.DictTypeTranslationImpl
+com.cyber.common.translation.core.impl.OssUrlTranslationImpl
+com.cyber.common.translation.core.impl.UserNameTranslationImpl

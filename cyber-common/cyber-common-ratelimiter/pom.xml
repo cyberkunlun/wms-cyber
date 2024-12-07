@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.cyber</groupId>
+        <artifactId>cyber-common</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>cyber-common-ratelimiter</artifactId>
+
+    <description>
+        cyber-common-ratelimiter 限流功能
+    </description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.cyber</groupId>
+            <artifactId>cyber-common-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.cyber</groupId>
+            <artifactId>cyber-common-redis</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

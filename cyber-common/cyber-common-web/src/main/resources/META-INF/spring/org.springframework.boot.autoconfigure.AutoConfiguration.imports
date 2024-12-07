@@ -1,0 +1,5 @@
+com.cyber.common.web.config.CaptchaConfig
+com.cyber.common.web.config.FilterConfig
+com.cyber.common.web.config.I18nConfig
+com.cyber.common.web.config.ResourcesConfig
+com.cyber.common.web.config.UndertowConfig
